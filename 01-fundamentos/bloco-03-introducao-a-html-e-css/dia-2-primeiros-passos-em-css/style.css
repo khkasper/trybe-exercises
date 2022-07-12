@@ -1,0 +1,25 @@
+h1 {
+        font-size: 65px;
+        color: red;
+        font-style: sans-serif;
+      }
+      ul {
+        background-color: black;
+      }
+      li {
+        background-color: black;
+      }
+      .BGColor {
+        background-color: brown;
+      }
+      p {
+        font-weight: 600;
+        font-size: 48px;
+        font-style: italic;
+        line-height: 60px;
+        text-align: justify;
+        text-decoration: black);
+      }
+      body {
+        font-size: 16px;
+      }

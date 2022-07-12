@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flexbox;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: darkgreen;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: darkolivegreen;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: darkturquoise;
+  }
+}

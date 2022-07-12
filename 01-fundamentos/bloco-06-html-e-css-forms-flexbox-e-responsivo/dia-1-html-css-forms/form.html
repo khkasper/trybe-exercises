@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+  <fieldset>
+    <legend>Informações pessoais</legend>
+    <label for="name">Nome: </label>
+    <input type="text" name="name" maxlength="40" required>
+    <label for="email">Endereço de e-mail: </label>
+    <input class="email-input" type="email" name="email" maxlength="50" placeholder="exemplo@exemplo.com"
+      required>
+    <label for="cpf-number">CPF: </label>
+    <input type="number" name="cpf" maxlength="11" minlength="11" placeholder="01234567890" required> <br>
+    <label for="address">Endereço: </label>
+    <input type="text" name="address" maxlength="200" placeholder="Rua Exemplo, 00" required> <br>
+    <label for="city">Cidade: </label>
+    <input type="text" name="city" maxlength="200" required>
+    <label for="state">Estado: </label>
+    <select name="state" id="state" required>
+      <option disabled selected>Selecione seu estado</option>
+    </select> <br>
+    <input type="radio" name="propertieType" value="apartment"checked>
+    <label for="apartment">Apartamento</label>
+    <input type="radio" name="propertieType" value="house">
+    <label for="house">Casa</label>
+  </fieldset>
+  <fieldset class="lastJob">
+    <label for="resume">Resumo do currículo: </label>
+    <textarea name="resume" maxlength="1000" cols="75" rows="15" required></textarea> <br>
+    <label for="role">Cargo: </label>
+    <input type="text" id="role" maxlength="40" placeholder="Cargo" required>
+    <label for="jobDescription">Descrição do cargo: </label>
+    <input type="text" name="jobDescription" maxlength="500" placeholder="Descrição" required>
+    <label for="startDate">Data de início: </label>
+    <input type="text" name="startDate" id="startDate" placeholder="dd/mm/aaaa" required>
+  </fieldset>
+  <button type="submit" id="submit">Enviar</button>
+  <button type="reset">Limpar</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
